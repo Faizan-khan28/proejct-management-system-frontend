@@ -3,7 +3,7 @@ import { Navbar } from "./components/Navbar"
 import { AddProduct } from "./pages/addProduct"
 import { ProductList } from "./pages/productList"
 import { EditProduct } from "./pages/editProduct"
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://project-management-system-backend-ixpc.onrender.com"
 
 
 function App() {
