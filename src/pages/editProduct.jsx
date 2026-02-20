@@ -37,7 +37,7 @@ export const EditProduct = () => {
     fetchProduct();
   }, []);
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!name || !price || !category) {
